@@ -23,11 +23,9 @@ javac Server.java InputException.java TransferException.java ClientHelper.java
 ```
 
 ## Running
-/client/ contains the client source files and programs, /server/ contains the server source files and programs. 
-
-* Please note the following:
-  * Socket connection uses port 9090
-  * [PATH] is path to /File-Transfer/ directory 
+/client/ contains the client source files and programs. /server/ contains the server source files and programs. Please note the following:
+* Socket connection uses port 9090
+* [PATH] is path to /File-Transfer/ directory 
 
 To run the client program, navigate to /[PATH]/client/ and run:
 ```
@@ -38,3 +36,5 @@ To run the server program, navigate to /[PATH]/server/ and run:
 ```
 java Server
 ```
+
+The user-interface should be instructive and intuitive to follow 
